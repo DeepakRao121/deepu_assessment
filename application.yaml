@@ -11,7 +11,7 @@ spec:
     targetRevision: HEAD
     path: dev
   destination: 
-    server: https://DCB46D9F9DF8395C95D86F86BDBD01F6.gr7.ap-south-1.eks.amazonaws.com
+    server: https://kubernetes.default.svc
     namespace: myapp
 
   syncPolicy:
